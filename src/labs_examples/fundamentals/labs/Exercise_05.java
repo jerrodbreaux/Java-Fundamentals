@@ -23,6 +23,11 @@ public class Exercise_05 {
         // assign input to variable as int
         int days = scanner.nextInt();
 
+
+        double secPerday = 86400;
+        double secTot = days*secPerday;
+        System.out.println("The number of seconds in " + days + " days is " + secTot);
+
         // write completed code here
 
     }
