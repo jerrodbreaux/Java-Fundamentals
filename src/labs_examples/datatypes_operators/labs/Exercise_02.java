@@ -29,7 +29,7 @@ public class Exercise_02 {
 
         double d = 10.5;
         int g = (int) d;
-        System.out.println("int g = " + d);
+        System.out.println("int g = " + g);
 
 
     }

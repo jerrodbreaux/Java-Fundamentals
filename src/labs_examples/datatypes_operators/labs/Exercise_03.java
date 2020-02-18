@@ -22,7 +22,7 @@ class ArithmeticOperators {
         System.out.println("int mult = " + mult);
         int div = b / c;
         System.out.println("int div = " + div);
-        int mod = b%a;
+        int mod = b % a;
         System.out.println("int mod = " + mod);
 
         // write your code below

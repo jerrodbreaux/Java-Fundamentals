@@ -1,5 +1,7 @@
 package labs_examples.conditions_loops.labs;
 
+import java.util.Scanner;
+
 /**
  * Conditions and Loops Exercise 5: Calculator
  *
@@ -16,4 +18,29 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_05 {
+
+    public static void main(String[] args){
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Enter an integer larger than the previous: ");
+        int num2 = scanner.nextInt();
+        int sum = ((num1 + num2) / 2)*(num2 - num1 + 1);
+        int n = num2 - num1 + 1;
+
+
+        if(num2 <= num1){System.out.println("Your 2nd integer must be greater than the first...Start Over");
+
+
+        }else{System.out.println("The sum is: " + sum);System.out.println("The average is: " + (sum/n));
+
+        }
+
+
+
+
+
+    }
+
 }

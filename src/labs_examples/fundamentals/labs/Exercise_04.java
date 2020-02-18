@@ -12,16 +12,17 @@ public class Exercise_04 {
 
     public static void main(String[] args) {
 
-            double cylR = 03.14;            // write code here
-            short cylH = 8;
-            double pi = 3.14159;
-            double cylV = pi*cylR*cylR*cylH;
-            double cylA1 = 2*pi*cylR*cylH;
-            double cylA2 = 2*pi*cylR*cylR;
-            double cylAT = cylA1+cylA2;
-            System.out.println("The volume and area of a cylinder with a radius of 3.14 and a height of 8 is " + cylV + " and " + cylAT + " respectively.");
+        double cylR = 03.14;            // write code here
+        short cylH = 8;
+        //double pi = 3.14159;
+        double cylV = Math.PI*cylR*cylR*cylH;
+        double cylA1 = 2*Math.PI*cylR*cylH;
+        double cylA2 = 2*Math.PI*cylR*cylR;
+        double cylAT = cylA1+cylA2;
+        System.out.println("The volume and area of a cylinder with a radius of 3.14 and a height of 8 is " + cylV + " and " + cylAT + " respectively.");
 
-
+        int x = 2 * (4 + 4) * (2 + 2);
+        System.out.println(x);
 
     }
 }

@@ -17,11 +17,11 @@ public class Exercise_05 {
     public static void main(String[] args) {
 
         // create scanner
-        Scanner scanner = new Scanner(System.in);
+        Scanner unicorn = new Scanner(System.in);
         // prompt user
         System.out.print("Enter a number in days between 1 and 1,000,000: ");
         // assign input to variable as int
-        int days = scanner.nextInt();
+        int days = unicorn.nextInt();
 
 
         double secPerday = 86400;

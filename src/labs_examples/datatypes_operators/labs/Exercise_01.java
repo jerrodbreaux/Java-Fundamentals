@@ -18,9 +18,9 @@ public class Exercise_01 {
 
         int x = 10;
         double y = 20000000000.656;
-                float z = 321321321321321.326f;
-                        char h = 'A';
-                                System.out.println("int x is " + x + ", double y is " + y + ", float z is " + z + ", char h is " + h);
+        float z = 321321321321321.326f;
+        char h = 'A';
+        System.out.println("int x is " + x + ", double y is " + y + ", float z is " + z + ", char h is " + h);
 
         // write code here
 
