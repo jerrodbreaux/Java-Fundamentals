@@ -1,5 +1,5 @@
 package labs_examples.arrays.labs;
-
+import java.util.ArrayList;
 /**
  *  ArrayLists
  *
@@ -10,4 +10,25 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+
+    public static void main(String[] args){
+
+
+       ArrayList<String> aList = new ArrayList();
+
+       aList.add ("This");
+       aList.add ("is");
+       aList.add ("an");
+       aList.add ("ArrayList");
+
+       String firstWord = aList.get(0);
+       System.out.println(firstWord);
+
+        System.out.println(aList);
+
+        int size = aList.size();
+        System.out.println(size);
+
+
+    }
 }
