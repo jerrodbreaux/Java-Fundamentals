@@ -5,15 +5,15 @@ package labs_examples.objects_classes_methods.labs.objects;
  * /
  * */
 
-class Example {
+class CarExample {
 
     public static void main(String[] args){
 
-        Engine myEngine = new Engine(400);
+        CarEngine myEngine = new CarEngine(400);
 
         Stereo myStereo = new Stereo("Panasonic");
 
-        Car myCar = new Car(myEngine, myStereo, "XTerra", "Blue");
+        Car myCar = new Car(myEngine, myStereo, "Xterra", "Blue");
 
         System.out.println("I drive a " + myCar.color + " " + myCar.model + " with a "
 
@@ -27,11 +27,11 @@ class Example {
 
 }
 
-class Engine {
+class CarEngine {
 
     double horsePower;
 
-    public Engine(double horsePower){
+    public CarEngine(double horsePower){
 
         this.horsePower = horsePower;
 
@@ -65,7 +65,7 @@ class Stereo {
 
 class Car {
 
-    Engine engine;
+    CarEngine engine;
 
     Stereo stereo;
 
@@ -73,7 +73,7 @@ class Car {
 
     String color;
 
-    public Car(Engine engine, Stereo stereo, String model, String color){
+    public Car(CarEngine engine, Stereo stereo, String model, String color){
 
         this.engine = engine;
 
