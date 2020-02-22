@@ -18,24 +18,15 @@ package labs_examples.arrays.labs;
 public class Exercise_03 {
 
     public static void main(String[] args) {
-
         int[][] twoDArray = new int[5][5];
-
-
-        for(int i = 0; i < twoDArray.length; i++){
-            for(int j = 0; j < twoDArray[i].length; j++){
-                twoDArray[i][j]=(i * j)*3; /////<<<<<<<<<<<<<What????>>>>>>>>>>>>>
-                System.out.print(twoDArray[i][j] + "-");
-
+        // use 2 for loops to populate the 2d array
+        // first for loop
+        for (int innerLoop = 1; innerLoop < twoDArray.length; innerLoop++){
+            for (int outerLoop = 0; outerLoop < twoDArray[innerLoop].length; outerLoop++){
+                twoDArray[innerLoop][outerLoop] = innerLoop * 3;
+                System.out.print(twoDArray[outerLoop][innerLoop]);
             }
             System.out.println();
         }
-       // for(int[] vals : twoDArray){
-           // for(int i : vals){
-                //System.out.print(i);
-
-           // }
-      // }System.out.println();
-
     }
 }
