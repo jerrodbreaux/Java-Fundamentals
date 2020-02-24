@@ -1,6 +1,7 @@
 
 Without running the code below, please tell me what it will print.
 
+Parent c only has access to Parent properties. Would print "Parent Called"
 
 
 public class InheritanceTest
