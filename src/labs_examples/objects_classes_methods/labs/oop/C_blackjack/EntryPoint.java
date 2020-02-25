@@ -1,8 +1,8 @@
-package labs_examples.objects_classes_methods.labs.oop.C_blackjack;
+//package labs_examples.objects_classes_methods.labs.oop.C_blackjack;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
-public class EntryPoint {
+//public class EntryPoint {
 
    /* public static void main(String[] args) {
 
@@ -24,4 +24,4 @@ public class EntryPoint {
 
     }*/
 
-}
+//}

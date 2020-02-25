@@ -1,5 +1,7 @@
 package labs_examples.packages.labs;
 
+
+
 /**
  * Packages Exercise 1: Protected modifier
  *
@@ -9,3 +11,5 @@ package labs_examples.packages.labs;
  *      4) Demonstrate how the the protected access modifier restricts access from package to package
  *
  */
+
+

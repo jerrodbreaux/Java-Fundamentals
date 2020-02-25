@@ -1,13 +1,13 @@
-package labs_examples.objects_classes_methods.labs.oop.C_blackjack.object_models;
+//package labs_examples.objects_classes_methods.labs.oop.C_blackjack.object_models;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 
-public class Deck {
+//public class Deck {
 
-    private Card[] deck = new Card[52];
-    private ArrayList<Integer> usedCArds = new ArrayList();
-    char[] suit = new char []{'♠', '♠', '♥', '♣'};
-    private static int freshDecksLoaded;
+   // private Card[] deck = new Card[52];
+    //private ArrayList<Integer> usedCArds = new ArrayList();
+    //char[] suit = new char []{'♠', '♠', '♥', '♣'};
+    //private static int freshDecksLoaded;
 
     /*public Deck(){
         loadFreskDeck();
@@ -67,4 +67,4 @@ public class Deck {
            // }   count++;
         //}
    // }/
-}
+//}
