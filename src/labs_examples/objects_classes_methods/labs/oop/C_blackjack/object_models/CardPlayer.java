@@ -2,7 +2,7 @@ package labs_examples.objects_classes_methods.labs.oop.C_blackjack.object_models
 
 import java.util.Scanner;
 
-/*public class CardPlayer {
+public class CardPlayer {
 
     private String name;
     private int stackValue;
@@ -31,4 +31,4 @@ import java.util.Scanner;
 
 
     }
-}*/
+}

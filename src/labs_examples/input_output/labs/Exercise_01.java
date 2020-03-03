@@ -15,4 +15,12 @@ class Example {
 
 
     }
+
+    public static void demonstrateInputStream(){
+
+
+
+    }
+
+
 }

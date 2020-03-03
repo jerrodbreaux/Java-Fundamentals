@@ -1,15 +1,15 @@
-//package labs_examples.objects_classes_methods.labs.oop.C_blackjack.object_models;
+package labs_examples.objects_classes_methods.labs.oop.C_blackjack.object_models;
 
-//import java.util.ArrayList;
+import java.util.ArrayList;
 
-//public class Deck {
+public class Deck {
 
-   // private Card[] deck = new Card[52];
-    //private ArrayList<Integer> usedCArds = new ArrayList();
-    //char[] suit = new char []{'♠', '♠', '♥', '♣'};
-    //private static int freshDecksLoaded;
+    private Card[] deck = new Card[52];
+    private ArrayList<Integer> usedCArds = new ArrayList();
+    char[] suit = new char []{'♠', '♠', '♥', '♣'};
+    private static int freshDecksLoaded;
 
-    /*public Deck(){
+    public Deck(){
         loadFreskDeck();
         freshDecksLoaded++;
     }
@@ -44,27 +44,27 @@
 
     public static void setFreshDecksLoaded(int freshDecksLoaded) {
         Deck.freshDecksLoaded = freshDecksLoaded;
-    }*/
+    }
 
-    //private void loadFreskDeck() {
+    private void loadFreskDeck() {
 
-        //int count = 0;
+        int count = 0;
 
-        //for(int x = 0; x < 4; x++);{
+        for(int x = 0; x < 4; x++){
 
-           // for(int i = 1; i < 14; i++){
-             //   if (i ==1){
-                    //deck[count] = new Card(suit[x], "ACE");
-                //}else if (i == 11){
-                //    deck[count] = new Card(suit[x], "JACK");
-              //  }else if (i == 12) {
-               //     deck[count] = new Card(suit[x], "QUEEN");
-              //  }else if (i == 13) {
-              //      deck[count] = new Card(suit[x], "KING");
-             //   }else {
-             //       deck[count] = new Card(suit[x], inter.toString(i).toUpperCase());
-              //  }
-           // }   count++;
-        //}
-   // }/
-//}
+            for(int i = 1; i < 14; i++){
+                if (i ==1){
+                    deck[count] = new Card(suit[x], "ACE");
+                }else if (i == 11){
+                    deck[count] = new Card(suit[x], "JACK");
+                }else if (i == 12) {
+                    deck[count] = new Card(suit[x], "QUEEN");
+                }else if (i == 13) {
+                    deck[count] = new Card(suit[x], "KING");
+                }else {
+                    deck[count] = new Card(suit[x], Integer.toString(i).toUpperCase());
+                }
+            }   count++;
+        }
+    }
+}
